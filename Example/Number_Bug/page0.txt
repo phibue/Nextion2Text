@@ -1,0 +1,867 @@
+Page page0
+    Attributes
+        ID         : 0
+        Scope      : local
+        Width      : 240
+        Locked     : no
+        Fill       : solid color
+        Back. Color: 65535
+    
+Number n0
+    Attributes
+        ID                      : 1
+        Scope                   : local
+        x coordinate            : 128
+        y coordinate            : 294
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2208
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n1
+    Attributes
+        ID                      : 2
+        Scope                   : local
+        x coordinate            : 128
+        y coordinate            : 265
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2207
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n2
+    Attributes
+        ID                      : 3
+        Scope                   : local
+        x coordinate            : 128
+        y coordinate            : 236
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2206
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n3
+    Attributes
+        ID                      : 4
+        Scope                   : local
+        x coordinate            : 128
+        y coordinate            : 207
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2205
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n4
+    Attributes
+        ID                      : 5
+        Scope                   : local
+        x coordinate            : 128
+        y coordinate            : 178
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2204
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n5
+    Attributes
+        ID                      : 6
+        Scope                   : local
+        x coordinate            : 128
+        y coordinate            : 149
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2203
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n6
+    Attributes
+        ID                      : 7
+        Scope                   : local
+        x coordinate            : 128
+        y coordinate            : 120
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2202
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n7
+    Attributes
+        ID                      : 8
+        Scope                   : local
+        x coordinate            : 128
+        y coordinate            : 91
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2201
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n8
+    Attributes
+        ID                      : 9
+        Scope                   : local
+        x coordinate            : 128
+        y coordinate            : 62
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2200
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n9
+    Attributes
+        ID                      : 10
+        Scope                   : local
+        x coordinate            : 128
+        y coordinate            : 33
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2199
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n10
+    Attributes
+        ID                      : 11
+        Scope                   : local
+        x coordinate            : 128
+        y coordinate            : 4
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2198
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n11
+    Attributes
+        ID                      : 12
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 291
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2197
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n12
+    Attributes
+        ID                      : 13
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 262
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2196
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n13
+    Attributes
+        ID                      : 14
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 233
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2195
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n14
+    Attributes
+        ID                      : 15
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 204
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2194
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n15
+    Attributes
+        ID                      : 16
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 175
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2204
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n16
+    Attributes
+        ID                      : 17
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 146
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2203
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n17
+    Attributes
+        ID                      : 18
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 117
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2202
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n18
+    Attributes
+        ID                      : 19
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 88
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2201
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n19
+    Attributes
+        ID                      : 20
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 59
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2200
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n20
+    Attributes
+        ID                      : 21
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 30
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2199
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n21
+    Attributes
+        ID                      : 22
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 1
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2198
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n22
+    Attributes
+        ID                      : 23
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 291
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2197
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n23
+    Attributes
+        ID                      : 24
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 262
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2196
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n24
+    Attributes
+        ID                      : 25
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 233
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2195
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n25
+    Attributes
+        ID                      : 26
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 204
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2194
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n26
+    Attributes
+        ID                      : 27
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 175
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2193
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n27
+    Attributes
+        ID                      : 28
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 146
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2192
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n28
+    Attributes
+        ID                      : 29
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 117
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2191
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n29
+    Attributes
+        ID                      : 30
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 88
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2190
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n30
+    Attributes
+        ID                      : 31
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 59
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2189
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n31
+    Attributes
+        ID                      : 32
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 30
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2180
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
+Number n32
+    Attributes
+        ID                      : 33
+        Scope                   : local
+        x coordinate            : 7
+        y coordinate            : 1
+        Width                   : 100
+        Height                  : 21
+        Locked                  : no
+        Fill                    : solid color
+        Style                   : flat
+        Associated Keyboard     : none
+        Border Color            : 0
+        Border Width            : 2
+        Font ID                 : 0
+        Back. Color             : 65535
+        Font Color              : 0
+        Horizontal Alignment    : center
+        Vertical Alignment      : center
+        Initial value           : 2170
+        Significant digits shown: all
+        Format                  : decimal
+        Word wrap               : enabled
+        Horizontal Spacing      : 0
+        Vertical Spacing        : 0
+    
