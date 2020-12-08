@@ -1,3 +1,11 @@
+"""
+TFTTool by Max Zuidberg
+
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at http://mozilla.org/MPL/2.0/.
+"""
+
 from string import whitespace
 import sys
 from pathlib import Path
@@ -6,6 +14,7 @@ from typing import List
 import argparse
 import copy
 import json
+
 
 class IndentList(list):
     def __init__(self, *args, **kwargs):
@@ -240,8 +249,8 @@ class Component:
             "name": "Input Type",
             "vis": True,
             "mapping": {
-                0: "Character",
-                1: "Password",
+                0: "character",
+                1: "password",
             },
         },
         "val": {
@@ -261,16 +270,16 @@ class Component:
                 53: {
                     "name": "State",
                     "mapping": {
-                        0: "Unpressed",
-                        1: "Pressed",
+                        0: "unpressed",
+                        1: "pressed",
                     },
                 },
                 98: 53,
                 56: {
                     "name": "State",
                     "mapping": {
-                        0: "Unselected",
-                        1: "Selected",
+                        0: "unpressed",
+                        1: "pressed",
                     },
                 },
                 57: 56,
@@ -402,7 +411,7 @@ class Component:
             "type": {
                 122: {# Gauge
                     "name": "Angle offset",
-                    "mapping": dict(),
+                    "mapping": dict(), #disable default mapping
                 },
             },
         },
@@ -779,18 +788,18 @@ class Component:
             "type": {
                 55: {# Scrolling Text
                     "mapping": {
-                        0: "Left->Right",
-                        1: "Right->Left",
-                        2: "Top->Bottom",
-                        3: "Bottom->Top",
+                        0: "left->right",
+                        1: "right->left",
+                        2: "top->bottom",
+                        3: "bottom->top",
                     },
                 },
                 0: {# Waveform
                     "name": "Flow Direction",
                     "mapping": {
-                        0: "Left->Right",
-                        1: "Right->Left",
-                        2: "Right aligned",
+                        0: "left->right",
+                        1: "right->left",
+                        2: "right aligned",
                     },
                 },
             },
@@ -949,8 +958,14 @@ class Component:
             },
         },
         "sendkey": {
-            "name": "sendkey",
+            "name": "Send Component ID",
             "struct": "i",
+            "mapping": {
+                0: "disabled",
+                1: "on release",
+                2: "on press",
+                3: "on press and release",
+            },
         },
         "movex": {
             "name": "",
@@ -1082,7 +1097,7 @@ class Component:
             "name": "Swide up page ID",
             "struct": "i",
             "mapping": {
-                255: "Disabled",
+                255: "disabled",
             },
             "type": {
                 122: {  # Gauge
@@ -1104,7 +1119,7 @@ class Component:
             "name": "Swide down page ID",
             "struct": "i",
             "mapping": {
-                255: "Disabled",
+                255: "disabled",
             },
             "type": {
                 122: {  # Gauge
@@ -1123,7 +1138,7 @@ class Component:
             "name": "Swide left page ID",
             "struct": "i",
             "mapping": {
-                255: "Disabled",
+                255: "disabled",
             },
             "type": {
                 122: {  # Gauge
@@ -1142,7 +1157,7 @@ class Component:
             "name": "Swide right page ID",
             "struct": "i",
             "mapping": {
-                255: "Disabled",
+                255: "disabled",
             },
             "type": {
                 122: {  # Gauge
@@ -1247,8 +1262,9 @@ class Component:
         return result
 
     def parseRawProperties(self, customInclude=tuple(), customExclude=tuple(),
-                           includeVisuals:bool=False, includeUnknown:int=0,
-                           inplace=True, emptyEvents=False, **kwargs):
+                           includeVisual:bool=False, includeUnknown:int=0,
+                           inplace=True, emptyEvents=False,
+                           keepNames=False, keepValues=False, **kwargs):
 
         data = dict()
         # Model name is considered as an "attribute", too. (needed to know the right interpretation; see below)
@@ -1268,32 +1284,36 @@ class Component:
                 attProperties = copy.deepcopy(Component.attributes[attName])
                 done = False
                 while not done:
+                    print("nodo")
                     done = True
-                    for d in dependencies:
-                        if d in attProperties:
+                    keys = [k for k in attProperties.keys()]
+                    for d in keys:
+                        if d in dependencies:
                             done = False
-                            if d in self.rawData["att"] and (self.rawData["att"][d] in attProperties[d] or -1 in attProperties):
-                                try:
-                                    i = self.rawData["att"][d]
-                                except:
+                            if d in self.rawData["att"]:
+                                val = self.rawData["att"][d]
+                                foundVal = True
+                                if val in attProperties[d]:
+                                    i = val
+                                elif  -1 in attProperties[d]:
                                     i = -1
-                                while not type(attProperties[d][i]) is dict:
-                                    vOld = i
-                                    i = attProperties[d][i]
-                                    attProperties[d].pop(vOld)
-                                try:
+                                else:
+                                    foundVal = False
+                                if foundVal:
+                                    while not type(attProperties[d][i]) is dict:
+                                        vOld = i
+                                        i = attProperties[d][i]
+                                        attProperties[d].pop(vOld)
                                     attProperties.update(attProperties[d][i])
-                                except:
-                                    print("help")
                             attProperties.pop(d)
                 if  customInclude and attName not in customInclude:
                     attProperties["ignore"] = True
-                if ("vis" in attProperties and attProperties["vis"]) and not includeVisuals:
+                if ("vis" in attProperties and attProperties["vis"]) and not includeVisual:
                     attProperties["ignore"] = True
                 if (not "ignore" in attProperties or not attProperties["ignore"]):
-                    if "name" in attProperties:
+                    if "name" in attProperties and not keepNames:
                         attName = attProperties["name"]
-                    if "mapping" in attProperties:
+                    if "mapping" in attProperties and not keepValues:
                         if attData in attProperties["mapping"]:
                             attData = attProperties["mapping"][attData]
                     attributes[attName] = attData
@@ -1635,6 +1655,12 @@ if __name__ == '__main__':
                         help="Optional Extension that is added to the text files (default: \".txt\")")
     parser.add_argument("-e", "--empty_events", action="store_true",
                         help="Optional flag to include empty events in the output (Excluded by default).")
+    parser.add_argument("-n", "--keep_names", action="store_true",
+                        help="Optional flag to preserve the original names (f.ex. \"bco\" instead of \"Background "
+                             "color\").")
+    parser.add_argument("-v", "--keep_values", action="store_true",
+                        help="Optional flag to preserve the original values (f.ex. \"sta: 0\" instead of \"sta: "
+                             "cropped image\").")
     parser.add_argument("-s", "--stats", action="store_true",
                         help="Optional flag to create a file in the output folder that will include all the statistics "
                              "you see in the command line output.")
@@ -1648,7 +1674,7 @@ if __name__ == '__main__':
                              "visual properties and/or unknown properties, too, specify \"visual\" and/or "
                              "\"unknown\". By default, unknown attributes up to 4 bytes length are interpreted as "
                              "integer while longer attribute values are interpreted as string. Alternatively you can "
-                             "use \"unknown_hex\" to get all unknonw values as hex, or \"unknown_raw\" to get all of "
+                             "use \"unknown_hex\" to get all unknown values as hex, or \"unknown_raw\" to get all of "
                              "them as characters (including NUL characters and other unprintable ones).")
     parser.add_argument("-c", "--custom_dict", metavar="PY_FILE", required=False, type=str, default="",
                         help="Optional. You can create your own attributes and codeEvents dictionaries instead or in "
@@ -1672,9 +1698,9 @@ if __name__ == '__main__':
         parser.error("HMI file not found.")
 
     includeUnknown = 0
-    includeVisuals = False
+    includeVisual = False
     if "visual" in args.properties:
-        includeVisuals = True
+        includeVisual = True
     if "unknown" in args.properties:
         includeUnknown = 1
     elif "unknown_hex" in args.properties:
@@ -1755,7 +1781,9 @@ if __name__ == '__main__':
             json.dump({"Program.s": hmi.programS}, f, indent=4)
     for page in hmi.pages:
         name = page.components[0].rawData["att"]["objname"]#str(page)
-        text = page.getText(emptyLinesLimit=1, includeUnknown=includeUnknown, includeVisuals=includeVisuals, emptyEvents=args.empty_events)
+        text = page.getText(emptyLinesLimit=1, includeUnknown=includeUnknown,
+                            includeVisual=includeVisual, emptyEvents=args.empty_events,
+                            keepNames=args.keep_names, keepValues=args.keep_values)
         texts[name] = text
         compCount[name] = len(page.components)
         codeLines[name] = []
