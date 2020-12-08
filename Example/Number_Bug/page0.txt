@@ -1,18 +1,18 @@
 Page page0
     Attributes
-        ID         : 0
-        Scope      : local
-        sendkey    : 0
-        Width      : 240
-        Locked     : no
-        Fill       : solid color
-        Back. Color: 65535
+        ID               : 0
+        Scope            : local
+        Send Component ID: disabled
+        Width            : 240
+        Locked           : no
+        Fill             : solid color
+        Back. Color      : 65535
     
 Number n0
     Attributes
         ID                      : 1
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 128
         y coordinate            : 294
         Width                   : 100
@@ -21,8 +21,6 @@ Number n0
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -39,7 +37,7 @@ Number n1
     Attributes
         ID                      : 2
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 128
         y coordinate            : 265
         Width                   : 100
@@ -48,8 +46,6 @@ Number n1
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -66,7 +62,7 @@ Number n2
     Attributes
         ID                      : 3
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 128
         y coordinate            : 236
         Width                   : 100
@@ -75,8 +71,6 @@ Number n2
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -93,7 +87,7 @@ Number n3
     Attributes
         ID                      : 4
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 128
         y coordinate            : 207
         Width                   : 100
@@ -102,8 +96,6 @@ Number n3
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -120,7 +112,7 @@ Number n4
     Attributes
         ID                      : 5
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 128
         y coordinate            : 178
         Width                   : 100
@@ -129,8 +121,6 @@ Number n4
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -147,7 +137,7 @@ Number n5
     Attributes
         ID                      : 6
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 128
         y coordinate            : 149
         Width                   : 100
@@ -156,8 +146,6 @@ Number n5
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -174,7 +162,7 @@ Number n6
     Attributes
         ID                      : 7
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 128
         y coordinate            : 120
         Width                   : 100
@@ -183,8 +171,6 @@ Number n6
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -201,7 +187,7 @@ Number n7
     Attributes
         ID                      : 8
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 128
         y coordinate            : 91
         Width                   : 100
@@ -210,8 +196,6 @@ Number n7
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -228,7 +212,7 @@ Number n8
     Attributes
         ID                      : 9
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 128
         y coordinate            : 62
         Width                   : 100
@@ -237,8 +221,6 @@ Number n8
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -255,7 +237,7 @@ Number n9
     Attributes
         ID                      : 10
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 128
         y coordinate            : 33
         Width                   : 100
@@ -264,8 +246,6 @@ Number n9
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -282,7 +262,7 @@ Number n10
     Attributes
         ID                      : 11
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 128
         y coordinate            : 4
         Width                   : 100
@@ -291,8 +271,6 @@ Number n10
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -309,7 +287,7 @@ Number n11
     Attributes
         ID                      : 12
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 291
         Width                   : 100
@@ -318,8 +296,6 @@ Number n11
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -336,7 +312,7 @@ Number n12
     Attributes
         ID                      : 13
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 262
         Width                   : 100
@@ -345,8 +321,6 @@ Number n12
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -363,7 +337,7 @@ Number n13
     Attributes
         ID                      : 14
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 233
         Width                   : 100
@@ -372,8 +346,6 @@ Number n13
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -390,7 +362,7 @@ Number n14
     Attributes
         ID                      : 15
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 204
         Width                   : 100
@@ -399,8 +371,6 @@ Number n14
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -417,7 +387,7 @@ Number n15
     Attributes
         ID                      : 16
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 175
         Width                   : 100
@@ -426,8 +396,6 @@ Number n15
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -444,7 +412,7 @@ Number n16
     Attributes
         ID                      : 17
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 146
         Width                   : 100
@@ -453,8 +421,6 @@ Number n16
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -471,7 +437,7 @@ Number n17
     Attributes
         ID                      : 18
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 117
         Width                   : 100
@@ -480,8 +446,6 @@ Number n17
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -498,7 +462,7 @@ Number n18
     Attributes
         ID                      : 19
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 88
         Width                   : 100
@@ -507,8 +471,6 @@ Number n18
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -525,7 +487,7 @@ Number n19
     Attributes
         ID                      : 20
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 59
         Width                   : 100
@@ -534,8 +496,6 @@ Number n19
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -552,7 +512,7 @@ Number n20
     Attributes
         ID                      : 21
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 30
         Width                   : 100
@@ -561,8 +521,6 @@ Number n20
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -579,7 +537,7 @@ Number n21
     Attributes
         ID                      : 22
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 1
         Width                   : 100
@@ -588,8 +546,6 @@ Number n21
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -606,7 +562,7 @@ Number n22
     Attributes
         ID                      : 23
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 291
         Width                   : 100
@@ -615,8 +571,6 @@ Number n22
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -633,7 +587,7 @@ Number n23
     Attributes
         ID                      : 24
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 262
         Width                   : 100
@@ -642,8 +596,6 @@ Number n23
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -660,7 +612,7 @@ Number n24
     Attributes
         ID                      : 25
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 233
         Width                   : 100
@@ -669,8 +621,6 @@ Number n24
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -687,7 +637,7 @@ Number n25
     Attributes
         ID                      : 26
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 204
         Width                   : 100
@@ -696,8 +646,6 @@ Number n25
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -714,7 +662,7 @@ Number n26
     Attributes
         ID                      : 27
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 175
         Width                   : 100
@@ -723,8 +671,6 @@ Number n26
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -741,7 +687,7 @@ Number n27
     Attributes
         ID                      : 28
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 146
         Width                   : 100
@@ -750,8 +696,6 @@ Number n27
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -768,7 +712,7 @@ Number n28
     Attributes
         ID                      : 29
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 117
         Width                   : 100
@@ -777,8 +721,6 @@ Number n28
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -795,7 +737,7 @@ Number n29
     Attributes
         ID                      : 30
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 88
         Width                   : 100
@@ -804,8 +746,6 @@ Number n29
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -822,7 +762,7 @@ Number n30
     Attributes
         ID                      : 31
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 59
         Width                   : 100
@@ -831,8 +771,6 @@ Number n30
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -849,7 +787,7 @@ Number n31
     Attributes
         ID                      : 32
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 30
         Width                   : 100
@@ -858,8 +796,6 @@ Number n31
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
@@ -876,7 +812,7 @@ Number n32
     Attributes
         ID                      : 33
         Scope                   : local
-        sendkey                 : 0
+        Send Component ID       : disabled
         x coordinate            : 7
         y coordinate            : 1
         Width                   : 100
@@ -885,8 +821,6 @@ Number n32
         Fill                    : solid color
         Style                   : flat
         Associated Keyboard     : none
-        Border Color            : 0
-        Border Width            : 2
         Font ID                 : 0
         Back. Color             : 65535
         Font Color              : 0
