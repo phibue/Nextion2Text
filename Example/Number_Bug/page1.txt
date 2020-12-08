@@ -1,92 +1,92 @@
 Page page1
     Attributes
-        ID               : 0
-        Scope            : local
-        Send Component ID: disabled
-        Width            : 240
-        Locked           : no
-        Fill             : solid color
-        Back. Color      : 65535
+        id     : 0
+        vscope : local
+        sendkey: disabled
+        w      : 240
+        lockobj: no
+        sta    : solid color
+        bco    : 65535
     
 Waveform s0
     Attributes
-        ID               : 1
-        Scope            : local
-        Send Component ID: disabled
-        x coordinate     : 0
-        y coordinate     : 0
-        Width            : 203
-        Height           : 77
-        Locked           : no
-        Fill             : solid color
-        Flow Direction   : left->right
-        Channel count    : 1
-        Back. Color      : 0
-        Grid Color       : 1024
-        Grid hor. spacing: 40
-        Grid ver. spacing: 40
-        Channel 0 Color  : 64495
+        id     : 1
+        vscope : local
+        sendkey: disabled
+        x      : 0
+        y      : 0
+        w      : 203
+        h      : 77
+        lockobj: no
+        sta    : solid color
+        dir    : left->right
+        ch     : 1
+        bco    : 0
+        gdc    : 1024
+        gdw    : 40
+        gdh    : 40
+        pco0   : 64495
     
 Waveform s1
     Attributes
-        ID               : 2
-        Scope            : local
-        Send Component ID: disabled
-        x coordinate     : 2
-        y coordinate     : 82
-        Width            : 177
-        Height           : 112
-        Locked           : no
-        Fill             : solid color
-        Flow Direction   : left->right
-        Channel count    : 2
-        Back. Color      : 0
-        Grid Color       : 1024
-        Grid hor. spacing: 40
-        Grid ver. spacing: 40
-        Channel 0 Color  : 64495
-        Channel 1 Color  : 65519
+        id     : 2
+        vscope : local
+        sendkey: disabled
+        x      : 2
+        y      : 82
+        w      : 177
+        h      : 112
+        lockobj: no
+        sta    : solid color
+        dir    : left->right
+        ch     : 2
+        bco    : 0
+        gdc    : 1024
+        gdw    : 40
+        gdh    : 40
+        pco0   : 64495
+        pco1   : 65519
     
 Waveform s2
     Attributes
-        ID               : 3
-        Scope            : local
-        Send Component ID: disabled
-        x coordinate     : 3
-        y coordinate     : 211
-        Width            : 103
-        Height           : 97
-        Locked           : no
-        Fill             : solid color
-        Flow Direction   : left->right
-        Channel count    : 3
-        Back. Color      : 0
-        Grid Color       : 1024
-        Grid hor. spacing: 40
-        Grid ver. spacing: 40
-        Channel 0 Color  : 64495
-        Channel 1 Color  : 65519
-        Channel 2 Color  : 63488
+        id     : 3
+        vscope : local
+        sendkey: disabled
+        x      : 3
+        y      : 211
+        w      : 103
+        h      : 97
+        lockobj: no
+        sta    : solid color
+        dir    : left->right
+        ch     : 3
+        bco    : 0
+        gdc    : 1024
+        gdw    : 40
+        gdh    : 40
+        pco0   : 64495
+        pco1   : 65519
+        pco2   : 63488
     
 Waveform s3
     Attributes
-        ID               : 4
-        Scope            : local
-        Send Component ID: disabled
-        x coordinate     : 139
-        y coordinate     : 214
-        Width            : 92
-        Height           : 98
-        Locked           : no
-        Fill             : solid color
-        Flow Direction   : left->right
-        Channel count    : 4
-        Back. Color      : 0
-        Grid Color       : 1024
-        Grid hor. spacing: 40
-        Grid ver. spacing: 40
-        Channel 0 Color  : 64495
-        Channel 1 Color  : 65519
-        Channel 2 Color  : 63488
-        Channel 3 Color  : 2016
+        id     : 4
+        vscope : local
+        sendkey: disabled
+        x      : 139
+        y      : 214
+        w      : 92
+        h      : 98
+        lockobj: no
+        sta    : solid color
+        dir    : left->right
+        ch     : 4
+        bco    : 0
+        gdc    : 1024
+        gdw    : 40
+        gdh    : 40
+        pco0   : 64495
+        pco1   : 65519
+        pco2   : 63488
+        pco3   : 2016
     

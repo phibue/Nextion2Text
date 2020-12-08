@@ -1,835 +1,835 @@
 Page page0
     Attributes
-        ID               : 0
-        Scope            : local
-        Send Component ID: disabled
-        Width            : 240
-        Locked           : no
-        Fill             : solid color
-        Back. Color      : 65535
+        id     : 0
+        vscope : local
+        sendkey: disabled
+        w      : 240
+        lockobj: no
+        sta    : solid color
+        bco    : 65535
     
 Number n0
     Attributes
-        ID                      : 1
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 128
-        y coordinate            : 294
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2208
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 1
+        vscope : local
+        sendkey: disabled
+        x      : 128
+        y      : 294
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2208
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n1
     Attributes
-        ID                      : 2
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 128
-        y coordinate            : 265
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2207
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 2
+        vscope : local
+        sendkey: disabled
+        x      : 128
+        y      : 265
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2207
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n2
     Attributes
-        ID                      : 3
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 128
-        y coordinate            : 236
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2206
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 3
+        vscope : local
+        sendkey: disabled
+        x      : 128
+        y      : 236
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2206
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n3
     Attributes
-        ID                      : 4
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 128
-        y coordinate            : 207
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2205
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 4
+        vscope : local
+        sendkey: disabled
+        x      : 128
+        y      : 207
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2205
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n4
     Attributes
-        ID                      : 5
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 128
-        y coordinate            : 178
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2204
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 5
+        vscope : local
+        sendkey: disabled
+        x      : 128
+        y      : 178
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2204
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n5
     Attributes
-        ID                      : 6
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 128
-        y coordinate            : 149
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2203
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 6
+        vscope : local
+        sendkey: disabled
+        x      : 128
+        y      : 149
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2203
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n6
     Attributes
-        ID                      : 7
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 128
-        y coordinate            : 120
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2202
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 7
+        vscope : local
+        sendkey: disabled
+        x      : 128
+        y      : 120
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2202
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n7
     Attributes
-        ID                      : 8
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 128
-        y coordinate            : 91
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2201
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 8
+        vscope : local
+        sendkey: disabled
+        x      : 128
+        y      : 91
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2201
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n8
     Attributes
-        ID                      : 9
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 128
-        y coordinate            : 62
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2200
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 9
+        vscope : local
+        sendkey: disabled
+        x      : 128
+        y      : 62
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2200
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n9
     Attributes
-        ID                      : 10
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 128
-        y coordinate            : 33
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2199
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 10
+        vscope : local
+        sendkey: disabled
+        x      : 128
+        y      : 33
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2199
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n10
     Attributes
-        ID                      : 11
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 128
-        y coordinate            : 4
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2198
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 11
+        vscope : local
+        sendkey: disabled
+        x      : 128
+        y      : 4
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2198
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n11
     Attributes
-        ID                      : 12
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 291
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2197
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 12
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 291
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2197
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n12
     Attributes
-        ID                      : 13
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 262
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2196
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 13
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 262
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2196
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n13
     Attributes
-        ID                      : 14
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 233
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2195
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 14
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 233
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2195
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n14
     Attributes
-        ID                      : 15
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 204
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2194
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 15
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 204
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2194
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n15
     Attributes
-        ID                      : 16
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 175
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2204
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 16
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 175
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2204
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n16
     Attributes
-        ID                      : 17
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 146
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2203
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 17
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 146
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2203
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n17
     Attributes
-        ID                      : 18
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 117
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2202
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 18
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 117
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2202
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n18
     Attributes
-        ID                      : 19
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 88
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2201
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 19
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 88
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2201
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n19
     Attributes
-        ID                      : 20
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 59
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2200
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 20
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 59
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2200
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n20
     Attributes
-        ID                      : 21
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 30
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2199
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 21
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 30
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2199
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n21
     Attributes
-        ID                      : 22
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 1
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2198
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 22
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 1
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2198
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n22
     Attributes
-        ID                      : 23
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 291
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2197
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 23
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 291
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2197
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n23
     Attributes
-        ID                      : 24
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 262
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2196
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 24
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 262
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2196
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n24
     Attributes
-        ID                      : 25
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 233
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2195
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 25
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 233
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2195
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n25
     Attributes
-        ID                      : 26
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 204
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2194
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 26
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 204
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2194
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n26
     Attributes
-        ID                      : 27
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 175
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2193
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 27
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 175
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2193
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n27
     Attributes
-        ID                      : 28
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 146
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2192
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 28
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 146
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2192
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n28
     Attributes
-        ID                      : 29
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 117
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2191
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 29
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 117
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2191
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n29
     Attributes
-        ID                      : 30
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 88
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2190
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 30
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 88
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2190
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n30
     Attributes
-        ID                      : 31
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 59
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2189
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 31
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 59
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2189
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n31
     Attributes
-        ID                      : 32
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 30
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2180
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 32
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 30
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2180
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
 Number n32
     Attributes
-        ID                      : 33
-        Scope                   : local
-        Send Component ID       : disabled
-        x coordinate            : 7
-        y coordinate            : 1
-        Width                   : 100
-        Height                  : 21
-        Locked                  : no
-        Fill                    : solid color
-        Style                   : flat
-        Associated Keyboard     : none
-        Font ID                 : 0
-        Back. Color             : 65535
-        Font Color              : 0
-        Horizontal Alignment    : center
-        Vertical Alignment      : center
-        Value                   : 2170
-        Significant digits shown: all
-        Format                  : decimal
-        Word wrap               : enabled
-        Horizontal Spacing      : 0
-        Vertical Spacing        : 0
+        id     : 33
+        vscope : local
+        sendkey: disabled
+        x      : 7
+        y      : 1
+        w      : 100
+        h      : 21
+        lockobj: no
+        sta    : solid color
+        style  : flat
+        key    : none
+        font   : 0
+        bco    : 65535
+        pco    : 0
+        xcen   : center
+        ycen   : center
+        val    : 2170
+        lenth  : all
+        format : decimal
+        isbr   : enabled
+        spax   : 0
+        spay   : 0
     
