@@ -2,6 +2,7 @@ Page page0
     Attributes
         ID         : 0
         Scope      : local
+        sendkey    : 0
         Width      : 240
         Locked     : no
         Fill       : solid color
@@ -11,6 +12,7 @@ Number n0
     Attributes
         ID                      : 1
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 128
         y coordinate            : 294
         Width                   : 100
@@ -26,7 +28,7 @@ Number n0
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2208
+        Value                   : 2208
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -37,6 +39,7 @@ Number n1
     Attributes
         ID                      : 2
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 128
         y coordinate            : 265
         Width                   : 100
@@ -52,7 +55,7 @@ Number n1
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2207
+        Value                   : 2207
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -63,6 +66,7 @@ Number n2
     Attributes
         ID                      : 3
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 128
         y coordinate            : 236
         Width                   : 100
@@ -78,7 +82,7 @@ Number n2
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2206
+        Value                   : 2206
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -89,6 +93,7 @@ Number n3
     Attributes
         ID                      : 4
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 128
         y coordinate            : 207
         Width                   : 100
@@ -104,7 +109,7 @@ Number n3
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2205
+        Value                   : 2205
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -115,6 +120,7 @@ Number n4
     Attributes
         ID                      : 5
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 128
         y coordinate            : 178
         Width                   : 100
@@ -130,7 +136,7 @@ Number n4
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2204
+        Value                   : 2204
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -141,6 +147,7 @@ Number n5
     Attributes
         ID                      : 6
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 128
         y coordinate            : 149
         Width                   : 100
@@ -156,7 +163,7 @@ Number n5
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2203
+        Value                   : 2203
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -167,6 +174,7 @@ Number n6
     Attributes
         ID                      : 7
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 128
         y coordinate            : 120
         Width                   : 100
@@ -182,7 +190,7 @@ Number n6
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2202
+        Value                   : 2202
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -193,6 +201,7 @@ Number n7
     Attributes
         ID                      : 8
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 128
         y coordinate            : 91
         Width                   : 100
@@ -208,7 +217,7 @@ Number n7
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2201
+        Value                   : 2201
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -219,6 +228,7 @@ Number n8
     Attributes
         ID                      : 9
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 128
         y coordinate            : 62
         Width                   : 100
@@ -234,7 +244,7 @@ Number n8
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2200
+        Value                   : 2200
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -245,6 +255,7 @@ Number n9
     Attributes
         ID                      : 10
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 128
         y coordinate            : 33
         Width                   : 100
@@ -260,7 +271,7 @@ Number n9
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2199
+        Value                   : 2199
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -271,6 +282,7 @@ Number n10
     Attributes
         ID                      : 11
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 128
         y coordinate            : 4
         Width                   : 100
@@ -286,7 +298,7 @@ Number n10
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2198
+        Value                   : 2198
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -297,6 +309,7 @@ Number n11
     Attributes
         ID                      : 12
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 291
         Width                   : 100
@@ -312,7 +325,7 @@ Number n11
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2197
+        Value                   : 2197
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -323,6 +336,7 @@ Number n12
     Attributes
         ID                      : 13
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 262
         Width                   : 100
@@ -338,7 +352,7 @@ Number n12
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2196
+        Value                   : 2196
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -349,6 +363,7 @@ Number n13
     Attributes
         ID                      : 14
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 233
         Width                   : 100
@@ -364,7 +379,7 @@ Number n13
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2195
+        Value                   : 2195
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -375,6 +390,7 @@ Number n14
     Attributes
         ID                      : 15
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 204
         Width                   : 100
@@ -390,7 +406,7 @@ Number n14
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2194
+        Value                   : 2194
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -401,6 +417,7 @@ Number n15
     Attributes
         ID                      : 16
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 175
         Width                   : 100
@@ -416,7 +433,7 @@ Number n15
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2204
+        Value                   : 2204
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -427,6 +444,7 @@ Number n16
     Attributes
         ID                      : 17
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 146
         Width                   : 100
@@ -442,7 +460,7 @@ Number n16
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2203
+        Value                   : 2203
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -453,6 +471,7 @@ Number n17
     Attributes
         ID                      : 18
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 117
         Width                   : 100
@@ -468,7 +487,7 @@ Number n17
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2202
+        Value                   : 2202
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -479,6 +498,7 @@ Number n18
     Attributes
         ID                      : 19
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 88
         Width                   : 100
@@ -494,7 +514,7 @@ Number n18
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2201
+        Value                   : 2201
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -505,6 +525,7 @@ Number n19
     Attributes
         ID                      : 20
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 59
         Width                   : 100
@@ -520,7 +541,7 @@ Number n19
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2200
+        Value                   : 2200
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -531,6 +552,7 @@ Number n20
     Attributes
         ID                      : 21
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 30
         Width                   : 100
@@ -546,7 +568,7 @@ Number n20
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2199
+        Value                   : 2199
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -557,6 +579,7 @@ Number n21
     Attributes
         ID                      : 22
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 1
         Width                   : 100
@@ -572,7 +595,7 @@ Number n21
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2198
+        Value                   : 2198
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -583,6 +606,7 @@ Number n22
     Attributes
         ID                      : 23
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 291
         Width                   : 100
@@ -598,7 +622,7 @@ Number n22
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2197
+        Value                   : 2197
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -609,6 +633,7 @@ Number n23
     Attributes
         ID                      : 24
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 262
         Width                   : 100
@@ -624,7 +649,7 @@ Number n23
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2196
+        Value                   : 2196
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -635,6 +660,7 @@ Number n24
     Attributes
         ID                      : 25
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 233
         Width                   : 100
@@ -650,7 +676,7 @@ Number n24
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2195
+        Value                   : 2195
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -661,6 +687,7 @@ Number n25
     Attributes
         ID                      : 26
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 204
         Width                   : 100
@@ -676,7 +703,7 @@ Number n25
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2194
+        Value                   : 2194
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -687,6 +714,7 @@ Number n26
     Attributes
         ID                      : 27
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 175
         Width                   : 100
@@ -702,7 +730,7 @@ Number n26
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2193
+        Value                   : 2193
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -713,6 +741,7 @@ Number n27
     Attributes
         ID                      : 28
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 146
         Width                   : 100
@@ -728,7 +757,7 @@ Number n27
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2192
+        Value                   : 2192
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -739,6 +768,7 @@ Number n28
     Attributes
         ID                      : 29
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 117
         Width                   : 100
@@ -754,7 +784,7 @@ Number n28
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2191
+        Value                   : 2191
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -765,6 +795,7 @@ Number n29
     Attributes
         ID                      : 30
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 88
         Width                   : 100
@@ -780,7 +811,7 @@ Number n29
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2190
+        Value                   : 2190
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -791,6 +822,7 @@ Number n30
     Attributes
         ID                      : 31
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 59
         Width                   : 100
@@ -806,7 +838,7 @@ Number n30
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2189
+        Value                   : 2189
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -817,6 +849,7 @@ Number n31
     Attributes
         ID                      : 32
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 30
         Width                   : 100
@@ -832,7 +865,7 @@ Number n31
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2180
+        Value                   : 2180
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled
@@ -843,6 +876,7 @@ Number n32
     Attributes
         ID                      : 33
         Scope                   : local
+        sendkey                 : 0
         x coordinate            : 7
         y coordinate            : 1
         Width                   : 100
@@ -858,7 +892,7 @@ Number n32
         Font Color              : 0
         Horizontal Alignment    : center
         Vertical Alignment      : center
-        Initial value           : 2170
+        Value                   : 2170
         Significant digits shown: all
         Format                  : decimal
         Word wrap               : enabled

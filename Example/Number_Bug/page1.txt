@@ -2,6 +2,7 @@ Page page1
     Attributes
         ID         : 0
         Scope      : local
+        sendkey    : 0
         Width      : 240
         Locked     : no
         Fill       : solid color
@@ -11,6 +12,7 @@ Waveform s0
     Attributes
         ID                   : 1
         Scope                : local
+        sendkey              : 0
         x coordinate         : 0
         y coordinate         : 0
         Width                : 203
@@ -30,6 +32,7 @@ Waveform s1
     Attributes
         ID                   : 2
         Scope                : local
+        sendkey              : 0
         x coordinate         : 2
         y coordinate         : 82
         Width                : 177
@@ -50,6 +53,7 @@ Waveform s2
     Attributes
         ID                   : 3
         Scope                : local
+        sendkey              : 0
         x coordinate         : 3
         y coordinate         : 211
         Width                : 103
@@ -71,6 +75,7 @@ Waveform s3
     Attributes
         ID                   : 4
         Scope                : local
+        sendkey              : 0
         x coordinate         : 139
         y coordinate         : 214
         Width                : 92
