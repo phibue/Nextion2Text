@@ -1,0 +1,91 @@
+Page page1
+    Attributes
+        ID         : 0
+        Scope      : local
+        Width      : 240
+        Locked     : no
+        Fill       : solid color
+        Back. Color: 65535
+    
+Waveform s0
+    Attributes
+        ID                   : 1
+        Scope                : local
+        x coordinate         : 0
+        y coordinate         : 0
+        Width                : 203
+        Height               : 77
+        Locked               : no
+        Fill                 : solid color
+        Flow Direction       : Left->Right
+        Channel count        : 1
+        Back. Color          : 0
+        Grid Color           : 1024
+        Grid hor. spacing    : 40
+        Grid ver. spacing    : 40
+        Channel 0 Color      : 64495
+        Corner Radius (Perc.): 100
+    
+Waveform s1
+    Attributes
+        ID                   : 2
+        Scope                : local
+        x coordinate         : 2
+        y coordinate         : 82
+        Width                : 177
+        Height               : 112
+        Locked               : no
+        Fill                 : solid color
+        Flow Direction       : Left->Right
+        Channel count        : 2
+        Back. Color          : 0
+        Grid Color           : 1024
+        Grid hor. spacing    : 40
+        Grid ver. spacing    : 40
+        Channel 0 Color      : 64495
+        Channel 1 Color      : 65519
+        Corner Radius (Perc.): 100
+    
+Waveform s2
+    Attributes
+        ID                   : 3
+        Scope                : local
+        x coordinate         : 3
+        y coordinate         : 211
+        Width                : 103
+        Height               : 97
+        Locked               : no
+        Fill                 : solid color
+        Flow Direction       : Left->Right
+        Channel count        : 3
+        Back. Color          : 0
+        Grid Color           : 1024
+        Grid hor. spacing    : 40
+        Grid ver. spacing    : 40
+        Channel 0 Color      : 64495
+        Channel 1 Color      : 65519
+        Channel 2 Color      : 63488
+        Corner Radius (Perc.): 100
+    
+Waveform s3
+    Attributes
+        ID                   : 4
+        Scope                : local
+        x coordinate         : 139
+        y coordinate         : 214
+        Width                : 92
+        Height               : 98
+        Locked               : no
+        Fill                 : solid color
+        Flow Direction       : Left->Right
+        Channel count        : 4
+        Back. Color          : 0
+        Grid Color           : 1024
+        Grid hor. spacing    : 40
+        Grid ver. spacing    : 40
+        Channel 0 Color      : 64495
+        Channel 1 Color      : 65519
+        Channel 2 Color      : 63488
+        Channel 3 Color      : 2016
+        Corner Radius (Perc.): 100
+    
