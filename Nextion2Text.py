@@ -1,5 +1,4 @@
 from string import whitespace
-import os
 import sys
 from pathlib import Path
 import struct
@@ -59,7 +58,8 @@ class Component:
         "type": {
             "name": "Type",
             "struct": "i",
-            "mapping": {#Needs to contain all types, even if some get overridden afterwards. Order here is used for sorting later
+            "mapping": {
+                #Needs to contain all types, even if some get overridden afterwards. Order here is used for sorting later
                 121: "Page",
                 52:  "Variable",
                 54:  "Number",
@@ -174,7 +174,7 @@ class Component:
                         3: "transparent",
                     },
                     "type": {
-                        121: {
+                        121: {# Page
                             "mapping": {
                                 0: "no background (transparent)",
                                 1: "solid color",
@@ -232,7 +232,8 @@ class Component:
         },
         "font": {
             "struct": "i",
-            "name": "Font ID"
+            "name": "Font ID",
+            "vis": True,
         },
         "pw": {
             "struct": "i",
@@ -244,11 +245,11 @@ class Component:
             },
         },
         "val": {
-            "name": "Initial value",
+            "name": "Value",
             "struct": "i",
             "type": {
                 1: {
-                    "name": "Initial position",
+                    "name": "Position",
                 },
                 52: {
                     "sta": {
@@ -258,7 +259,7 @@ class Component:
                     },
                 },
                 53: {
-                    "name": "Initial state",
+                    "name": "State",
                     "mapping": {
                         0: "Unpressed",
                         1: "Pressed",
@@ -266,7 +267,7 @@ class Component:
                 },
                 98: 53,
                 56: {
-                    "name": "Initial state",
+                    "name": "State",
                     "mapping": {
                         0: "Unselected",
                         1: "Selected",
@@ -489,45 +490,45 @@ class Component:
             "struct": "i",
             "vis": True,
             "type": {
-                121: {
+                121: {# Page
                     "ignore": True,
                 },
             },
-            "model": {
-                "P": {
-                    "drag": {
-                        1: {
-                            "name": "Initial x coord."
-                        },
-                    },
-                },
-            },
+            #"model": {
+            #    "P": {
+            #        "drag": {
+            #            1: {
+            #                "name": "Initial x coord."
+            #            },
+            #        },
+            #    },
+            #},
         },
         "y": {
             "name": "y coordinate",
             "struct": "i",
             "vis": True,
             "type": {
-                121: {
+                121: {# Page
                     "ignore": True,
                 },
             },
-            "model": {
-                "P": {
-                    "drag": {
-                        1: {
-                            "name": "Initial y coord."
-                        },
-                    },
-                },
-            },
+            #"model": {
+            #    "P": {
+            #        "drag": {
+            #            1: {
+            #                "name": "Initial y coord."
+            #            },
+            #        },
+            #    },
+            #},
         },
         "w": {
             "name": "Width",
             "struct": "i",
             "vis": True,
             type: {
-                121: {
+                121: {# Page
                     "ignore": True,
                 },
             },
@@ -537,7 +538,7 @@ class Component:
             "struct": "i",
             "vis": True,
             "type": {
-                121: {
+                121: {# Page
                     "ignore": True,
                 },
             },
@@ -629,7 +630,7 @@ class Component:
                     },
                 },
                 98: 53,
-                122: {# Gauge
+                0: {# Waveform
                     "name": "Channel 2 Color",
                     "ch": {
                         3: {
@@ -640,7 +641,6 @@ class Component:
                         },
                     },
                 },
-                0: 122, # Waveform
             },
         },
         "pco3": {
@@ -824,6 +824,7 @@ class Component:
         "mode": {
             "name": "Direction",
             "struct": "i",
+            "vis": True,
             "mapping": {
                 0: "horizontal",
                 1: "vertical",
@@ -871,7 +872,7 @@ class Component:
                 "K": "T",
                 "P": {
                     "type": {
-                        121: {
+                        121: {# Page
                             "ignore": True
                         },
                     },
@@ -888,7 +889,7 @@ class Component:
                 "K": "T",
                 "P": {
                     "type": {
-                        121: {
+                        121: {# Page
                             "ignore": True
                         },
                     },
@@ -948,9 +949,8 @@ class Component:
             },
         },
         "sendkey": {
-            "name": "Dunno",
+            "name": "sendkey",
             "struct": "i",
-            "ignore": True,
         },
         "movex": {
             "name": "",
@@ -1037,9 +1037,24 @@ class Component:
         },
         "wid": {
             "struct": "i",
+            "vis": True,
             "type": {
                 1: {# Slider
                     "name": "Cursor width",
+                    "mapping": {
+                        255: "auto",
+                    },
+                },
+                122: {# Gauge
+                    "model": {
+                        -1: {
+                            "ignore": True,
+                        },
+                        "P": {
+                            "ignore": False,
+                            "name": "Gauge Thickness",
+                        },
+                    },
                 },
             },
         },
@@ -1051,7 +1066,15 @@ class Component:
                     "name": "Cursor height",
                 },
                 122: {# Gauge
-                    "name": "Center circle dia.",
+                    "model": {
+                        -1: {
+                            "ignore": True,
+                        },
+                        "P": {
+                            "ignore": False,
+                            "name": "Center circle dia.",
+                        },
+                    },
                 },
             },
         },
@@ -1169,7 +1192,7 @@ class Component:
 
     def __repr__(self):
         repr = self.rawData["att"]["objname"]
-        data = self.parseRawProperties(customInclude={"type"}, inplace=False)
+        data = self.parseRawProperties(customInclude=("type",), inplace=False)
         if data and "Attributes" in data and Component.attributes["type"]["name"] in data["Attributes"]:
             repr = data["Attributes"][Component.attributes["type"]["name"]] + " " + repr
         return repr
@@ -1178,7 +1201,7 @@ class Component:
         return "".join(self.getTextLines(*args, **kwargs))
 
     def getTextLines(self, indentLevel=0, indent=4, emptyLinesLimit=1,
-                     customExclude={"type", "objname"}, **kwargs):
+                     customExclude=("type", "objname"), **kwargs):
         # Initialize resulting IndentList
         result = IndentList()
         result.indentStr = " "
@@ -1223,7 +1246,7 @@ class Component:
             result.appendIndentLine("")
         return result
 
-    def parseRawProperties(self, customInclude=set(), customExclude=set(),
+    def parseRawProperties(self, customInclude=tuple(), customExclude=tuple(),
                            includeVisuals:bool=False, includeUnknown:int=0,
                            inplace=True, emptyEvents=False, **kwargs):
 
@@ -1622,11 +1645,11 @@ if __name__ == '__main__':
     parser.add_argument("-p", "--properties", required=False, nargs="*", default=[],
                         help="Specify the (list of) properties that shall be included in the parsing. "
                              "By default, only known, non-visual properties are included. If you want to include "
-                             "visual properties and/or unknown properties, too, specify \"visuals\", \"unknowns\" or "
-                             "\"all\". By default, unknown attributes up to 4 bytes length are interpreted as integer "
-                             "while longer attribute values are interpreted as string. Alternatively you can use "
-                             "\"unknown_hex\" to get all unknonw values as hex, or \"unknown_raw\" to get all of them "
-                             "as characters (including NUL characters and other unprintable ones).")
+                             "visual properties and/or unknown properties, too, specify \"visuals\" and/or "
+                             "\"unknowns\". By default, unknown attributes up to 4 bytes length are interpreted as "
+                             "integer while longer attribute values are interpreted as string. Alternatively you can "
+                             "use \"unknown_hex\" to get all unknonw values as hex, or \"unknown_raw\" to get all of "
+                             "them as characters (including NUL characters and other unprintable ones).")
     parser.add_argument("-c", "--custom_dict", metavar="PY_FILE", required=False, type=str, default="",
                         help="Optional. You can create your own attributes and codeEvents dictionaries instead or in "
                              "addition to the build-in dictionaries (see -x). Specify the Python file with your "
@@ -1650,9 +1673,6 @@ if __name__ == '__main__':
 
     includeUnknown = 0
     includeVisuals = False
-    if "all" in args.properties:
-        includeVisuals = True
-        includeUnknown = 1
     if "visual" in args.properties:
         includeVisuals = True
     if "unknown" in args.properties:
